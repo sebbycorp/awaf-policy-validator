@@ -56,7 +56,7 @@ Install the tool. ```pip3 install git+https://github.com/f5devcentral/f5-waf-tes
 
 # How to Use
 
-#### 1. [Intail Setup] Create configuration file for the first time:  ```awaf-policy-validator.py --init``` 
+#### 1. [Intail Setup] Create configuration file for the first time:  ```awaf-policy-validator --init``` 
 
 that will contain initial information about the testing environment which should \ include information the application server technologies.
 
@@ -81,7 +81,7 @@ After the first init, config file (config.json) will be created by default under
 The default can be changed using "-c" with the desired path, as well "-t" for the test file and "-r" for the report file.
 
 
-More information can be observed by clicking ```f5-waf-tester --help```
+More information can be observed by clicking ```awaf-policy-validator --help```
 ```
 usage: f5-waf-tester [-h] [-v] [-i] [-c CONFIG] [-t TESTS] [-r REPORT]
 
@@ -101,7 +101,7 @@ optional arguments:
                         Report File Save Path. (default: report.json)
   ```
 
-#### 2. [Deploy] Run the tester tool and observe the results: ```f5-waf-tester```
+#### 2. [Deploy] Run the tester tool and observe the results: ```awaf-policy-validator```
 
 The results of the tests will be saved to "report.json" under the current folder. 
 Test results summary provide total number of passed/failed tests:
