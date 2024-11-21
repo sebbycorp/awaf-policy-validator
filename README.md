@@ -49,9 +49,14 @@ Fedora, ```sudo dnf install -y python-pip```
 
 Install the tool. ```pip install git+https://github.com/f5devcentral/f5-waf-tester.git```  
 
+or 
+
+Python 3+\
+Install the tool. ```pip3 install git+https://github.com/f5devcentral/f5-waf-tester.git```  
+
 # How to Use
 
-#### 1. [Intail Setup] Create configuration file for the first time:  ```f5-waf-tester --init``` 
+#### 1. [Intail Setup] Create configuration file for the first time:  ```awaf-policy-validator.py --init``` 
 
 that will contain initial information about the testing environment which should \ include information the application server technologies.
 
